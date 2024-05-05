@@ -1,0 +1,146 @@
+
+header{
+    width: 100%;
+    background-size: cover;
+    background-color: rgb(211, 36, 36);
+}
+.barra-navegacion{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    padding: 15px;
+    list-style: none;
+    color: #f0eded;
+}
+.titulo-index{
+    text-align: right;
+   margin-top: -65px;
+   display: flex;
+   justify-content: center;
+}
+.contenedor{
+    border: solid;
+    border-color: aqua;
+    display: flex;
+
+    
+   
+}
+.sabores{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    display:flex;
+    justify-content: center;
+}
+a{
+  color: beige;
+  
+}
+a:hover {
+    color: aqua;
+}
+body{
+    background-color: white;
+}
+.categorias{
+border: #000;
+padding-right: 20px;
+
+}
+.titulo-quienessomos{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    color: rgb(57, 57, 199);
+}
+p{
+    text-align: right;
+ color: #000;
+ font-size: 20px;
+}
+.tabla{
+    border-style: dashed;
+    border-color: black;
+    background-color: rgb(224, 43, 185);
+    font-size: larger;
+    width: 500px;
+    height: 300px;
+    padding-left: 10em;
+    padding-right: 10em;
+    margin:10px;
+    
+}
+.formulario{
+background-color: rgb(50, 153, 221);
+width: 500px;
+height: 500px;
+padding: 4px;
+
+}
+.caja-medalla{
+    background-color: green;
+    border: 15px;
+    border-color: black;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+   
+}
+
+section{
+    font-weight: 500;
+    display: flex;
+   justify-content: space-around;
+   justify-content: center;
+    
+  
+}
+.cajahh{
+    background-color: black;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120px;
+    color: white;
+    
+    
+}
+
+h6{
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(211, 36, 36);
+    margin: 25px;
+}
+.imagen-footer{
+
+    display: flex;
+    justify-content: start;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 10px;
+    margin: 5px;
+    
+  
+}
+
+    
+
+tr{
+    font-style: italic;
+}
+td{
+    background-color: blueviolet;
+}
+@media only screen { min-width: 700px; and max-width: 850px;
+    
+}
