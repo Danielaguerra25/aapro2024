@@ -4,83 +4,122 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/logo olimpica.png" type="image/x-icon">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: rgb(232, 223, 235);">
+<body>
+   
     <header>
-        <img src="./img/logo-olimpica.png" style="background-color: rgb(172, 11, 11);" alt="olimpica">
-             <nav>
-                <ul class="barra-navegacion">
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./contactos.html">Contactos</a></li>
-                    <li> <a href="./horariosdeatencion.html"> Horarios de Atencion</a></li>
-                    <li> <a href="./productos.html"> Productos</a></li>
-                    <li><a href="./quienessomos.html">Quienes Somos</a></li>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="barra-navegacion">
+              <a class="barra-navegacion" href="#"></a>
+              <img src="./img/logo-olimpica.png" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contactos.html">Contactos</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./horariosdeatencion.html">Horarios de Atencion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./quienessomos.html">Quienes Somos</a>
+                      </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                       <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./productos.html">Categorias</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="https://www.olimpica.com/supermercado">Supermercado</a></li>
+                      <li><a class="dropdown-item" href="https://www.olimpica.com/medicamentos">Farmacia</a></li>
+                      <li><a class="dropdown-item" href="https://www.olimpica.com/electrodomesticos-y-tecnologia">Electrodomesticos</a></li>
+                          <li><a class="dropdown-item" href="https://www.olimpica.com/moda">Moda</a></li>
+                          
+                      
+                    </ul>
+                  </li>
                 </ul>
-             </nav>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
     </header>
-    <table border="5">
-        <tr  class="categorias">
-            <td colspan="2">Categorias</td>
-            
-        </tr>
-        <tr>
-            <td> <a href="https://www.olimpica.com/supermercado"><img src="./img/supermercado.jpg" alt="" width="200px" height="150px"> </a></td>
-            <td>Supermercado</td>
-        </tr>
-        <tr> 
-            <td> <a href="https://www.olimpica.com/medicamentos"><img src="./img/farmacia.jpg" width="200px" height="150px"> </a></td>
-            <td>Farmacia</td>
-        </tr>
-        <tr>
-            <td><a href="https://www.olimpica.com/electrodomesticos-y-tecnologia"><img src="./img/electrodomesticos.jpeg" width="200px" height="150px"> </a></td>
-            <td>Electrodomesticos</td>
-        </tr>
-        <tr> 
-            <td><a href="https://www.olimpica.com/moda"><img src="./img/moda.png" width="200px" height="150px"></td>
-                <td>Moda</td>
-        </tr>
-    </table>
     <main>
         <h1>Nuestras Marcas</h1>
         <section>
-            
-           
-                <div class="caja-medalla">
-                <img src="./img/logo-medallaoro.png" alt=" medallooro">
-                <p class="parrafo-medalla">
-                    Miles de referencias, alta calidad y mejores precios: <br>
-                     los componentes perfectos de nuestra exitosa receta. <br>
-                    Descubre nuestras pastas, salsas, aderezos y mucho más. <br>
-                     Los mejores productos para que disfrutes el placer de cocinar tus recetas favoritas</p>
-                    </div>
-                       <div class="cajahh">
-                     <img src="./img/logo-hh.png" alt=" hh">
+                    
+          <body>
+ 
+            <div class="card-group">
+            <div class="card">
+              <img src="../aapro 2024/img/logo-medallaoro.png" class="card-img-top4" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Medalla de Oro</h5>
+                <p class="card-text">Miles de referencias, alta calidad y mejores precios:
+                  los componentes perfectos de nuestra exitosa receta.
+                  Descubre nuestras pastas, salsas, aderezos y mucho más.
+                  Los mejores productos para que disfrutes el placer de cocinar tus recetas favoritas</p>
                 
-                    <p>THouse&Home es diseño práctico a tu alcance. Descubre en SAO los juegos de cama más soñados , <br>
-                         las vajillas más apetecidas y los utensilios de cocina que necesitas para preparar tus recetas favoritas.  <br> Si ya tienes casa, ahora llegó el momento de convertirla en tu hogar. <br> </p>
-                        </div>
-                        <div class="caja-olimpo">
-                         <img src="./img/logo-olimpo.png" alt=" olimpo">
+              </div>
+            </div>
+        
+            <div class="card">
+              <img src="../aapro 2024/img/logo-hh.png" class="card-img-top3" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">HH Thouse & Home</h5>
+                <p class="card-text">hh
+                  THouse&Home es diseño práctico a tu alcance. Descubre en SAO los juegos de cama más soñados ,
+                  las vajillas más apetecidas y los utensilios de cocina que necesitas para preparar tus recetas favoritas.
+                  Si ya tienes casa, ahora llegó el momento de convertirla en tu hogar.
+                   olimpo.</p>
                 
-                    <p>Aprovechando los últimos avances en tecnología,<br>
-                         ahora podrás obtener de los mejores productos eléctricos para tu hogar a precios que nunca imaginaste. <br> </p>
-                        </div> 
-                         <aside>
-                         <img src="./img/logo-olimpica.png" alt=" olimpica">
+              </div>
+            </div>
+        
+            <div class="card">
+              <img src="../aapro 2024/img/logo-olimpo.png" class="card-img-top2" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Olimpo</h5>
+                <p class="card-text">Aprovechando los últimos avances en tecnología,
+                  ahora podrás obtener de los mejores productos eléctricos para tu hogar a precios que nunca imaginaste..
+                   olimpo</p>
                 
-                    <p>Sabemos que valoras tu estilo de vida pero también que cuidas mucho tu presupuesto. <br> Por eso, en cuanto a precios, estos productos siempre serán tu mejor opción. <br>
-                        Bajo esta marca te traemos productos de aseo para tu hogar y tu cuidado personal<br>además de víveres, congelados y muchos otros…  <br> Y la buena noticia es que cada vez estamos agregando más referencias <br> </p></aside>
-            </article>
+              </div>
+            </div>
+        
+            <div class="card">
+              <img src="../aapro 2024/img/logo-olimpica.png" class="card-img-top1" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Olimpica</h5>
+                <p class="card-text">Sabemos que valoras tu estilo de vida pero también que cuidas mucho tu presupuesto.
+                  Por eso, en cuanto a precios, estos productos siempre serán tu mejor opción.
+                  Bajo esta marca te traemos productos de aseo para tu hogar y tu cuidado personal
+                  además de víveres, congelados y muchos otros…
+                  Y la buena noticia es que cada vez estamos agregando más referencias</p>
+               
+              </div>
+            </div>
+          </div>
         </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
 </body><br>
 <footer>
-    <ul >
-    <li class="img-footer" class="imagen-footer">
-<a href="https://web.whatsapp.com/"><img src="./img/whatsapp.jpeg"  width="55px" height="55px"> </a></li>
-<li><a href="dguerrah25@gmail.com"><img src="./img/mail.png" alt="" width="55px" height="55px"  ></a></li>
-<li><a href="https://www.instagram.com/supertiendasolimpica/"><img src="./img/instagram.jpeg" alt=""  width="55px" height="55px"></a></li>
+    <ul class="imagen-footer">      
+        <li>    <a href="https://web.whatsapp.com/"><img src="./img/whatsapp.jpeg"  width="55px" height="55px"> </a></li>
+    <li><a href="dguerrah25@gmail.com"><img src="./img/mail.png" alt="" width="55px" height="55px" ></a></li>
+    <li><a href="https://www.instagram.com/supertiendasolimpica/"><img src="./img/instagram.jpeg" alt="" width="55px" height="55px"></a></li>
+   
 </ul>
 
 <h6>Pagina Realizada por Daniela guerra </h6> 
