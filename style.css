@@ -1,18 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 
 .barra-navegacion{
-    padding: 42px;
-    display: flex;
-    justify-content: space-evenly;
+margin: auto;
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: rgb(211, 36, 36);
+}
+ul, ol{
     list-style: none;
-    color: white;
-    background-color:rgb(218, 12, 22);
-    font-weight: 450;
-    
 }
-.buscar{
-    background-color: blue;
-    color: white;
+.nav li a{
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+
 }
+.nav li a:hover {
+background-color: bisque;
+}
+.nav ul {
+    display:none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul {
+    display:block ;
+    text-align: center;
+    background-color: rgb(211, 36, 36);
+}
+.nav > li {
+    float: left;
+}
+.logo img{
+    width: 75px;
+    height: 80px;
+   
+}
+label {
+    display: block;
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+  }
+  
+  input,
+  label {
+ margin: 3px;
+   
+  }
 
 
 .contenedor{
@@ -27,13 +70,13 @@
     justify-content: end;
 }
 
+
 a{
   color: rgb(253, 253, 249);
+
   
 }
-.barra-navegacion:hover {
-    color: aqua;
-}
+
 body{
 background-color: rgb(232, 224, 235);
     display: block;
@@ -124,21 +167,22 @@ h6{
     font-size: medium;
 
 }
+
+
 footer{
     padding: 30px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color:rgb(211, 36, 36);
     margin-block-end: 45px;
 }
 .imagen-footer{
 
     display: flex;
-    justify-content: start;
-    justify-content: space-between;
+   align-items: center;
     list-style: none;
-    padding-top: 10px;
-    margin: 5px;
+    
     
   
 }
